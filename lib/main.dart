@@ -191,6 +191,7 @@ class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       backgroundColor: NeumorphicTheme.baseColor(context),
       body: SafeArea(
         child: SingleChildScrollView(
